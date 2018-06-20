@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+}
+body{
+	min-width: 100%;
+	min-height: 100%;
+	background: #f9f9f9;
+	position: absolute;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}

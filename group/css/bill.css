@@ -1,0 +1,109 @@
+/*----------头部栏---------------*/
+/*#box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+header{
+    margin: 0 auto;
+    width: 90%;
+    height: 1.15rem;
+    display: flex;
+    justify-content:space-between;
+    color: #2B2B2B;  
+}
+header .main{
+    line-height: 1.15rem; 
+    font-size: 0.32rem;
+}
+header .return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+header .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+/*----------banner部分---------------*/
+#background-img{
+    width: 7.5rem;
+    height: 3.39rem;
+    background: url(../images/bill/banner.png) ;
+    background-size: 100%;
+}
+/*------------bill详情部分----------------*/
+#bill-xq{
+    width: 6.7rem;
+    height: 1.72rem;
+    margin: 0.56rem 0.4rem;
+}
+#bill-xq ul li{
+    font-size: 0.24rem;
+    color: #000000;
+}
+#bill-xq ul li:first-of-type{
+    margin-bottom: 0.25rem;
+}
+#bill-xq ul li:nth-of-type(2){
+    margin-bottom: 0.33rem;
+}
+#bill-xq ul li:first-of-type,#bill-xq ul li:nth-of-type(2),#bill-xq ul li:last-of-type{
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+}
+#bill-xq ul li:first-of-type .message-location{
+    width: 1.69rem;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+    -webkit-align-items:center;
+}
+#bill-xq ul li:first-of-type .message-location .location-icon{
+    display: inline-block;
+    width: 0.37rem;
+    height: 0.43rem;
+    background: url(../images/bill/location.png) no-repeat;
+    background-size: 100%;
+}
+#bill-xq ul li:first-of-type .message-date{
+    width: 2.62rem;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+    -webkit-align-items:center;
+}
+#bill-xq ul li:nth-of-type(2) p{
+    width: 2.49rem;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+    -webkit-align-items:center;
+}
+#bill-xq ul li:nth-of-type(2) p .odd-numbers{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.33rem;
+    background: url(../images/bill/odd.png) no-repeat;
+    background-size: 100%;
+}
+#bill-xq ul li:last-of-type p{
+    width: 1.26rem;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+    -webkit-align-items:center;
+}
+#bill-xq ul li:last-of-type p .money{
+    display: inline-block;
+    width: 0.39rem;
+    height: 0.38rem;
+    background: url(../images/bill/money.png) no-repeat;
+    background-size: 100%;
+}
+/*-----------详情中分割线-------------*/
+#br{
+    width: 6.7rem;
+    height: 0.02rem;
+    background: #DCDCDC;
+    margin: 0.46rem 0 0.53rem 0;
+}

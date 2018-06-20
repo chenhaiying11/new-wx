@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+	<title>我的作品</title>
+	<link rel="stylesheet" type="text/css" href="group/css/public.css">
+	<link rel="stylesheet" type="text/css" href="group/css/list.css">
+    <!-- 百度模板 -->
+    <script type="text/javascript" src="group/js/baiduTemplate.js" charset="utf-8"></script>
+	<script type="text/javascript" src="group/js/remSystemMi.js"></script>
+    <script type="text/javascript" src="group/js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<!-- 视频模拟 -->
+<div id="contents">
+    <div id="boxs">
+        <!-- <div id="List">
+            <video src="../1920ao1_1.mp4" poster="../images/list/img1.png">
+            </video> 
+            <div class="title">
+                <div class="title-text">
+                    <p>
+                        <span class="time">2018-4-19</span>&nbsp;
+                        <span class="source">女友嫁人新郎不是你？</span>
+                    </p>
+                    <span class="total">03:15</span>
+                </div>
+            </div>
+            <a class="playStart"></a>
+            <div class="action-item">
+                <div class="action-items">
+                    <p>
+                        <i class="watch"></i>
+                        <span class="new-watch">0</span>   
+                    </p>
+                    <a href="#" class="delete"></a>      
+                </div>
+            </div>     
+        </div> -->
+        <!-- 分享列表 -->
+        <!-- <div id="shareLists">
+            <div id="shareList">
+                <a href="#" class="WeChat-friends"></a>
+                <a href="#" class="Circle-Friends"></a>
+                <a href="#" class="microblog"></a>
+            </div>
+        </div>  -->
+    <!-- </div>   -->
+    <!-- 视频模拟 -->
+    <!-- <div id="boxs">
+        <div id="List">
+            <video src="../1920ao1_1.mp4" poster="../images/list/img1.png" ></video> 
+            <div class="title">
+                <div class="title-text">
+                    <p>
+                        <span class="time">2018-4-19</span>&nbsp;
+                        <span class="source">女友嫁人新郎不是你？</span>
+                    </p>
+                        <span class="total">03:15</span>
+                </div>
+            </div>
+            <a class="playStart"></a>
+            <div class="action-item">
+                <div class="action-items">
+                    <p>
+                        <i class="watch"></i>
+                        <span class="new-watch">0</span>
+                    </p>
+                    <a href="#" class="share"></a>
+                    <a href="#" class="delete"></a>   
+                </div>
+            </div>     
+        </div>
+        <div id="shareLists">
+            <div id="shareList">
+                <a href="#" class="WeChat-friends"></a>
+                <a href="#" class="Circle-Friends"></a>
+                <a href="#" class="microblog"></a>
+            </div>
+        </div> 
+    </div> -->
+    <!-- 视频模拟 -->
+   <!--  <div id="boxs">
+        <div id="List">
+            <video src="../1920ao1_1.mp4" poster="../images/list/img2.png"></video> 
+            <div class="title">
+                <div class="title-text">
+                    <p>
+                        <span class="time">2018-4-19</span>&nbsp;
+                        <span class="source">女友嫁人新郎不是你？</span>
+                    </p>
+                        <span class="total">03:15</span>
+                </div>
+            </div>
+            <a class="playStart"></a>
+            <div class="action-item">
+                <div class="action-items">
+                    <p>
+                        <i class="watch"></i>
+                        <span class="new-watch">0</span>
+                    </p>
+                    <a href="#" class="share"></a>
+                    <a href="#" class="delete"></a>   
+                </div>
+            </div>     
+        </div>
+        <div id="shareLists">
+            <div id="shareList">
+                <a href="#" class="WeChat-friends"></a>
+                <a href="#" class="Circle-Friends"></a>
+                <a href="#" class="microblog"></a>
+            </div>
+        </div> 
+    </div> -->
+</div>
+ <p id="content-text">没有更多喽~</p>
+    <!--删除框  -->
+    <div id="delete-gn">
+        <p>确定删除作品?</p>
+        <p>
+            <span class="delete-text">删除</span>
+            <span class="cancel">取消</span>
+        </p>
+    </div>
+<!-- 遮罩部分 -->
+<div id="sharebox"></div>
+</body>
+<!-- 视频部分的模版 -->
+<script type="text/html" id="ListTmp_1">
+   <div>
+        <%for(var n=0;n<data.length;n++){%>
+            <div id="List">
+                <video src="<%=addressUrl+data[n].id+'/'+data[n].name%>" >
+                </video> 
+                <div class="title">
+                    <div class="title-text">
+                        <p>
+                            <span class="time">2018-4-19</span>&nbsp;
+                            <span class="source">女友嫁人新郎不是你？</span>
+                        </p>
+                        <span class="total">03:15</span>
+                    </div>
+                </div>
+                <a class="playStart"></a>
+                <div class="action-item">
+                    <div class="action-items">
+                        <p>
+                            <i class="watch"></i>
+                            <span class="new-watch">0</span>   
+                        </p>
+                        <a href="#" class="delete"></a>      
+                    </div>
+                </div>
+            </div>     
+        <%}%>
+    </div>
+</script>
+<!-- <script type="text/javascript" src="group/js/list.js"></script> -->
+<script type="text/javascript" src="group/js/base.js"></script>
+</html>

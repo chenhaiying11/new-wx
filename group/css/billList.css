@@ -1,0 +1,102 @@
+/*----------banner部分-----------------*/
+#background-image{
+	width: 100%;
+    height: 3.39rem;
+	background:url(../images/BILL-LIST/greenfooter.png);
+	background-size: 100%;
+	position: relative;
+}
+#background-image .circle{
+	width: 1.49rem;
+	height: 1.49rem;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: absolute;
+	left: 3rem;
+	top: 0.73rem;
+	background: url(../images/BILL-LIST/wx.png) no-repeat;
+	background-size: 100%;
+}
+#background-image .name{
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 2.56rem;
+}
+
+/*--------------详情页-----------------------*/
+#particular{
+	width: 100%;
+	margin-top: 0.65rem;
+}
+#particular .message,#particular .intercalate,#particular .recharge,#particular .card{
+	width: 7.48rem;
+	height: 1rem;
+	background:#fff;
+	border: 1px solid #f9f9f9;
+
+}
+#particular .message div,#particular .intercalate div,#particular .recharge div,#particular .card div{
+	width: 6.69rem;
+	height: 1rem;
+	margin-left: 0.4rem;
+	display: -webkit-flex;
+	-webkit-align-items:center;
+	-webkit-justify-content:space-between;
+}
+#particular .message div p:first-of-type,#particular .intercalate div p:first-of-type,#particular .recharge div p:first-of-type,#particular .card div p:first-of-type{
+	display: -webkit-flex;
+	width: 1.1rem;
+	-webkit-align-items:center;
+	-webkit-justify-content:space-between;
+}
+
+.messageFirst{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background:url(../images/BILL-LIST/message.png) no-repeat;
+	background-size: 100%;
+}
+.intercalateFirst{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background:url(../images/BILL-LIST/intercalate.png) no-repeat;
+	background-size: 100%;
+}
+.rechargeFirst{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background:url(../images/BILL-LIST/recharge.png) no-repeat;
+	background-size: 100%;
+}
+.cardFirst{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background:url(../images/BILL-LIST/card.png) no-repeat;
+	background-size: 100%;
+}
+.messageText,.intercalateText,.rechargeText,.cardText{
+	font-size: 0.28rem;
+	color: #2B2B2B;
+}
+
+/*#particular .message div p:last-of-type,#particular .intercalate div p:last-of-type,#particular .recharge div p:last-of-type,#particular .card div p:last-of-type{
+	display: flex;
+	width: 0.5rem;
+	align-items: center;
+	justify-content:space-between;
+}*/
+/*#particular .message div p:last-of-type a:first-of-type{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+}*/
+#particular .message div a{
+	width: 0.17rem;
+	height: 0.34rem;
+	background:url(../images/BILL-LIST/cuo.png) no-repeat;
+}

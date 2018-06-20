@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>播放详情页</title>
+<link rel="stylesheet" type="text/css" href="group/css/reset.css"/>
+<link rel="stylesheet" href="group/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="group/css/willesPlay.css"/>
+<!-- 百度模板 -->
+ <script type="text/javascript" src="group/js/baiduTemplate.js" charset="utf-8"></script>
+<script type="text/javascript" src="group/js/remSystemMi.js"></script>
+<script type="text/javascript" src="group/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="group/js/willesPlay.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="willesPlay">
+				<div class="playHeader">
+					<div class="videotitle">鬼畜</div>
+				</div>
+				<div class="playContent">
+					<video width="100%" height="100%" id="playVideo">
+						<source src="http://123.57.19.47:8123/v1/hololens/storage/get/KsuGAUEs1lACZr5BSDU6Tnig4zHgkz4K1mz9wk0oUiVuM2DxgeTBGorxJIVWU78K/video.mp4"></source>
+						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="/">下载视频</a>
+					</video>
+				</div>
+				<div class="playControll">
+					<div class="playPause"></div>
+					<div class="timebar">
+						<span class="currentTime">0:00:00</span>
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+							</div>
+						<span class="duration">0:00:00</span>
+					</div>
+					<span class="fullScreen"></span>					
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="group/js/base.js"></script>

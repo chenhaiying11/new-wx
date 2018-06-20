@@ -1,0 +1,113 @@
+/*----------头部栏---------------*/
+#box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+ 
+}
+header{
+    margin: 0 auto;
+    width: 90%;
+    height: 1.15rem;
+    display: flex;
+    justify-content:space-between;
+    color: #2B2B2B;  
+}
+
+header .main{
+    line-height: 1.15rem; 
+    font-size: 0.32rem;
+}
+header .return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+header .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*------------播放详情-------------*/
+#show{
+    width: 6.71rem;
+    height: 6.22rem;
+    border:1px solid #3B3B3B;
+    background: #3B3B3B;
+    margin: 1.93rem auto ;
+    border-radius: 0.15rem;
+    z-index: 5;
+}
+#show .bt{
+    width: 6.71rem;
+    height: 1.3rem;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9F9F9;
+    font-size: 0.24rem;   
+}
+#show .bt  p{
+    width: 5.56rem;
+    margin-left: 0.47rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#show video{
+    width: 6.71rem;
+    height: 3.41rem;
+    object-fit: fill;
+    z-index: 6;
+}
+#show .xqfoot .gn{
+    width: 6.27rem;
+    height: 0.34rem;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    background: #3B3B3B;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#show .xqfoot .gn .playgo{
+    display: inline-block;
+    background: url(../images/play/播放.png) no-repeat;
+    background-size: 100%;
+    width: 0.34rem;
+    height: 0.34rem;
+}
+#show .xqfoot .gn p{
+    font-size: 0.18rem;
+    color: #F9F9F9;
+    
+}
+#show .xqfoot .gn .progress-bar{
+    width: 3.66rem;
+    height: 0.04rem;
+    background: #2B2B2B;
+}
+#show .xqfoot .gn .progress-bar .progress-top{
+    width: 0rem;
+    height: 0.04rem;
+    background: #44CCCC;
+    position: relative;
+}
+#show .xqfoot .gn .progress-bar .progress-top .little{
+    display: inline-block;
+    width: 0.12rem;
+    height: 0.16rem;
+    background: #fff;
+    position: absolute;
+    left: 0rem;
+    bottom: -0.06rem;
+}
+#show .xqfoot .gn .screen{
+    display: inline-block;
+    width: 0.31rem;
+    height: 0.31rem;
+    background: url(../images/play/screen.png) no-repeat;
+}
